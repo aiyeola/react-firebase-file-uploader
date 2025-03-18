@@ -1,6 +1,6 @@
 {
-  "name": "react-firebase-file-uploader",
-  "version": "2.4.4",
+  "name": "@aiyeola/react-firebase-file-uploader",
+  "version": "1.0.0",
   "description": "A file uploader for react that uploads files to your firebase storage",
   "main": "lib/index.js",
   "scripts": {
@@ -9,14 +9,13 @@
   },
   "babel": {
     "presets": [
-      "react",
-      "es2015",
-      "stage-2"
+      "@babel/preset-react",
+      "@babel/preset-env"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sprmn/react-firebase-file-uploader.git"
+    "url": "git+https://github.com/aiyeola/react-firebase-file-uploader.git"
   },
   "keywords": [
     "react",
@@ -26,22 +25,21 @@
   "author": "Frank van der Hoek <frank.vanderhoek@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sprmn/react-firebase-file-uploader/issues"
+    "url": "https://github.com/aiyeola/react-firebase-file-uploader/issues"
   },
-  "homepage": "https://github.com/sprmn/react-firebase-file-uploader#readme",
+  "homepage": "https://github.com/aiyeola/react-firebase-file-uploader#readme",
   "peerDependencies": {
-    "firebase": "^3.5.2 || ^4.0.0 || ^5.0.0",
-    "react": "^15.3.2 || ^16.0.0"
+    "firebase": "^3.5.2 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0",
+    "react": "^15.3.2 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.16.0",
-    "prettier": "^1.3.1"
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.23.0",
+    "prettier": "^3.0.3"
   },
   "dependencies": {
-    "uuid": "^3.2.1"
+    "uuid": "^9.0.1"
   }
 }
